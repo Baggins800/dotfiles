@@ -1,5 +1,5 @@
 
-# i3 configuration for arch linux
+# .files for my arch linux setup
 
 ## Install dependencies
 
