@@ -6,7 +6,7 @@
 ```
 pacman -S ripgrep neovim i3-gaps dmenu feh rxvt-unicode ttf-droid ttf-hack git gcc
 ```
-
+Make sure you updated `/etc/locale.gen` to include `en_US.UTF-8 UTF-8` + run `locale-gen` and reboot.
 For nvim package manager, install:
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
