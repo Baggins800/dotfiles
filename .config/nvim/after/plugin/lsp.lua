@@ -5,6 +5,7 @@ lsp.ensure_installed({
   "eslint",
   "clangd",
   "cmake",
+  "intelephense"
 })
 
 local cmp = require("cmp")
