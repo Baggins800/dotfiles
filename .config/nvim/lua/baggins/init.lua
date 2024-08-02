@@ -1,8 +1,11 @@
 vim.cmd [[packadd packer.nvim]]
+vim.cmd [[colorscheme slate]]
+vim.cmd [[highlight Normal guibg=NONE ctermbg=NONE]]
+
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.1',
+    'nvim-telescope/telescope.nvim', tag = '0.1.4',
     -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
@@ -29,8 +32,4 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},     -- Required
     }
   }
-  use("adalessa/laravel.nvim")
-  use("tpope/vim-dotenv")
-  use("MunifTanjim/nui.nvim")
-
 end)
