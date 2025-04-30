@@ -1,0 +1,24 @@
+#input {
+    border: 1px solid #606060;
+    color: #ffffff;
+}
+
+#input:focus {
+    border: 1px solid #aaaaaa;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+
+#entry:selected {
+    color: #000000;
+}
+
+#window, #entry:selected, #input, #inner-box{
+   background-color: #080808;
+ }
+
+#window {
+   opacity: 0.95;
+   border-radius: 5px 5px 10px 10px;
+}
