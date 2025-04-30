@@ -1,0 +1,35 @@
+* {
+  font-size: 12px;
+  font-family: "Hack";
+  min-height: 0;
+}
+#network, #cpu, #memory, #clock, #disk {
+  background: #000000;
+  border-left: 1px solid #00ff00;
+  padding: 0px 10px 0px 10px;
+}
+
+#network {
+  color: #ffffff;
+}
+
+#cpu {
+  color: #ff0000;
+}
+
+#disk {
+  color: #ffff00;
+}
+
+#memory {
+  color: #ff00ff;
+}
+
+#clock {
+  color: #00ffff;
+}
+
+window#waybar {
+  background: rgba(0,0,0,0);
+  color: #ffffff;
+}

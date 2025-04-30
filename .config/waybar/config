@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+    "height": 10,
+    "position": "bottom",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["clock", "cpu", "memory", "disk", "network"],
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "network": {
+      "format": "Network: {ifname}"
+    },
+    "cpu": {
+      "format": "CPU: {usage}%, {load}"
+    },
+    "memory": {
+      "format": "Memory: {percentage}% ({used}/{total} GiB)"
+    },
+    "disk": {
+	    "interval": 30,
+	    "format": "{percentage_free}% free on {path}",
+    }
+}
