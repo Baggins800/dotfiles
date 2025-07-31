@@ -2,10 +2,8 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 lsp.ensure_installed({
   "rust_analyzer",
-  "eslint",
   "clangd",
   "cmake",
-  "intelephense"
 })
 
 local cmp = require("cmp")
